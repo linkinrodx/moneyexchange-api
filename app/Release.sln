@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29215.179
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Money-Exchange.API", "Money-Exchange.API\Money-Exchange.API.csproj", "{ACAC9939-9029-4D09-93D8-08A3FB8709F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Money-Exchange.API", "Money-Exchange.API\Money-Exchange.API.csproj", "{ACAC9939-9029-4D09-93D8-08A3FB8709F1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Money-Exchange.Data.Generator", "Money-Exchange.Data.Generator\Money-Exchange.Data.Generator.csproj", "{BFDE3403-7CBC-4DD8-A886-7A2F1E2DA6C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Money-Exchange.Test", "Money-Exchange.Test\Money-Exchange.Test.csproj", "{0806C34C-6AF2-4C77-87C2-D1A2CE314BDB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{BFDE3403-7CBC-4DD8-A886-7A2F1E2DA6C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BFDE3403-7CBC-4DD8-A886-7A2F1E2DA6C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BFDE3403-7CBC-4DD8-A886-7A2F1E2DA6C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0806C34C-6AF2-4C77-87C2-D1A2CE314BDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0806C34C-6AF2-4C77-87C2-D1A2CE314BDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0806C34C-6AF2-4C77-87C2-D1A2CE314BDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0806C34C-6AF2-4C77-87C2-D1A2CE314BDB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
